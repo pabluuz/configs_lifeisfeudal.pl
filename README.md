@@ -1,4 +1,4 @@
-# Tutaj możecie zgłaszać zmiany do konfiguracji. Kilka tych pliczków jest i czasami trochę trudno się połapać, ale wiem, że i tak dacie radę! :)
+# Tutaj możecie zgłaszać zmiany do konfiguracji. Kilka tych pliczków jest i czasami trochę trudno się połapać, ale wiem, że i tak dacie radę!
 
 ## skill_types.xml
 Tutaj trzymane są akcje. Powiedzmy, że ktoś uważa, że za długo brukuje się drogę - szukamy "road"
@@ -31,3 +31,8 @@ Jest też możliwość, że będzie podana tam wartośc absolutna, tak jak np pr
 				<duration const="">2</duration>
 ~~~
 Tutaj sprawa jest prosta - 2 sekundy niezależnie od skilla
+
+## cm_random_events.xml
+Losowe wydarzenia. Np przerwanie kopania i klaskanie, czy też znalezienie czegoś gdzieś. Pliku używamy ze "słownikiem" - 
+> \steamapps\common\Life is Feudal Your Own\data\cm_messages.xml
+
