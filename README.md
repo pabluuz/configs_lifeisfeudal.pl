@@ -9,7 +9,7 @@ Tutaj trzymane są akcje. Powiedzmy, że ktoś uważa, że za długo brukuje si�
 			</ability>
 			<ability lvl="0" name="Slate Road" type="Build" id="310">
 				<duration const="12 10"/>
-        ...
+        			...
 			</ability>
 			<ability lvl="0" name="Marble Road" type="Build" id="311">
 				<duration const="12 10"/>
