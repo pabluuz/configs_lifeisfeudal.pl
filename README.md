@@ -4,17 +4,17 @@
 Tutaj trzymane są akcje. Powiedzmy, że ktoś uważa, że za długo brukuje się drogę - szukamy "road"
 ~~~xml
 <ability lvl="0" name="Stone Road" type="Build" id="65">
-				<duration const="12 10"/>
-				...
-			</ability>
-			<ability lvl="0" name="Slate Road" type="Build" id="310">
-				<duration const="12 10"/>
-        			...
-			</ability>
-			<ability lvl="0" name="Marble Road" type="Build" id="311">
-				<duration const="12 10"/>
-				...
-			</ability>
+	<duration const="12 10"/>
+	...
+</ability>
+<ability lvl="0" name="Slate Road" type="Build" id="310">
+	<duration const="12 10"/>
+	...
+</ability>
+<ability lvl="0" name="Marble Road" type="Build" id="311">
+	<duration const="12 10"/>
+	...
+</ability>
 ~~~
 widać od razu, że jest kilka opcji. 
 Poprawimy więc w obu <duration const="12 10"/>. Pierwsza wartość to długość bazowa (w sekundach), a druga to obniżenie tego czasu o 1 sekundę per X skilla. 
